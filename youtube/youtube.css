@@ -1,0 +1,282 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.nav{
+    display: flex;
+    margin: 15px;
+}
+.menu{
+    margin-right: 10px;
+}
+.search{
+    display: flex;
+    margin-left: 250px;
+    width:500px;
+    border-collapse: collapse;
+
+    input{
+    width:400px;
+    }
+}
+.search-icon{
+    display: flex;
+}
+.fa-magnifying-glass{
+    padding-top: 4%;
+    padding-left: 14%;
+    border: 1px solid; 
+    border-collapse: collapse;
+    width: 50px;  
+    color: rgb(151, 154, 151);
+    background-color: rgb(239, 241, 239);
+}
+.fa-microphone{
+    padding-top: 5%;
+    margin-left: 25px; 
+}
+.upload{
+    margin-left: 380px;
+    color: rgb(195, 197, 195);
+}
+.notification{
+    margin-left: 30px;
+    color: rgb(195, 197, 195);
+}
+.profile{
+    margin-left: 30px;
+    color: rgb(195, 197, 195);
+}
+.preface{
+    display: flex;
+}
+.home {
+    display: flex;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 10px;
+    i{
+        margin-right: 10px;
+    }
+}
+.explore{
+    display: flex;
+    margin-bottom: 15px;
+    margin-left: 10px;
+    i{
+        margin-right: 10px;
+    }
+}
+.shorts{
+    display: flex;
+    margin-bottom: 15px;
+    margin-left: 10px;
+    i{
+        margin-right: 10px;
+    }
+}
+.subscription{
+    display: flex;
+    margin-bottom: 15px;
+    margin-left: 10px;
+    i{
+        margin-right: 10px;
+    }
+}
+#hr1{
+    width:200px;
+    margin-bottom: 10px;
+}
+.library{
+    display: flex;
+    margin-bottom: 15px;
+    margin-left: 10px;
+    i{
+        margin-right: 10px;
+    }
+}
+.history{
+    display: flex;
+    margin-bottom: 15px;
+    margin-left: 10px;
+    i{
+        margin-right: 10px;
+    }
+}
+.your-videos{
+    display: flex;
+    margin-bottom: 15px;
+    margin-left: 10px;
+    i{
+        margin-right: 10px;
+    }
+}
+.watch-later{
+    display: flex;
+    margin-bottom: 15px;
+    margin-left: 10px;
+    i{
+        margin-right: 10px;
+    }
+}
+.liked-videos{
+    display: flex;
+    margin-bottom: 15px;
+    margin-left: 10px;
+    i{
+        margin-right: 10px;
+    }
+}
+#hr2{
+    width:200px;
+    margin-bottom: 15px;
+}
+.subscription2{
+    font-weight: 700;
+    margin-left: 10px;
+    margin-bottom: 15px;
+    color: rgb(145, 145, 145);
+}
+.acc-1{
+    display: flex;
+    margin-bottom: 15px;
+    margin-left: 10px;
+
+    i{
+        margin-right: 10px;
+    }
+}
+.acc-2{
+    display: flex;
+    margin-bottom: 15px;
+    margin-left: 10px;
+
+    i{
+        margin-right: 10px;
+    }
+}
+.acc-3{
+    display: flex;
+    margin-left: 10px;
+    margin-bottom: 15px;
+    i{
+        margin-right: 10px;
+    }
+}
+#hr3{
+    width:200px;
+    margin-bottom: 10px;
+}
+.top-suggestion{
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    height: 31px;
+}
+.all{
+    margin-right: 10px;
+    padding: 2px 7px;
+    color: white;
+    background-color: black;
+    border: 2px solid;
+    border-radius: 40px;
+}
+.live{
+    margin-right: 10px;
+    padding: 2px 7px;
+    color: black;
+    background-color: rgb(221, 220, 220);
+    border: 2px solid rgb(221, 220, 220);
+    border-radius: 40px;
+}
+.music{
+    margin-right: 10px;
+    padding: 2px 7px;
+    color: black;
+    background-color: rgb(221, 220, 220);
+    border: 2px solid rgb(221, 220, 220);
+    border-radius: 40px;
+}
+.ux-ui{
+    margin-right: 10px;
+    padding: 2px 7px;
+    color: black;
+    background-color: rgb(221, 220, 220);
+    border: 2px solid rgb(221, 220, 220);
+    border-radius: 40px;
+}
+.user-interface{
+    margin-right: 10px;
+    padding: 2px 7px;
+    color: black;
+    background-color: rgb(221, 220, 220);
+    border: 2px solid rgb(221, 220, 220);
+    border-radius: 40px;
+}
+.graphic{
+    margin-right: 10px;
+    padding: 2px 7px;
+    color: black;
+    background-color: rgb(221, 220, 220);
+    border: 2px solid rgb(221, 220, 220);
+    border-radius: 40px;
+}
+.user-exp{
+    margin-right: 10px;
+    padding: 2px 7px;
+    color: black;
+    background-color: rgb(221, 220, 220);
+    border: 2px solid rgb(221, 220, 220);
+    border-radius: 40px;
+}
+.ui{
+    margin-right: 10px;
+    padding: 2px 7px;
+    color: black;
+    background-color: rgb(221, 220, 220);
+    border: 2px solid rgb(221, 220, 220);
+    border-radius: 40px;
+}
+.interaction-design{
+    margin-right: 10px;
+    padding: 2px 7px;
+    color: black;
+    background-color: rgb(221, 220, 220);
+    border: 2px solid rgb(221, 220, 220);
+    border-radius: 40px;
+}
+.icon{
+    margin-top: 5px;
+}
+.frame-1{
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 270px;
+}
+.disc{
+    display: flex;
+
+    .fa-user{
+        margin-right: 10px;
+        align-content: center;
+    }
+    h5{
+        font-size: 16px;
+        font-weight: 900;
+        margin-bottom: 10px;
+    }
+    p{
+        font-size: 16px;
+        margin-bottom: 4px;
+
+    }
+}
+.vid-suggestion{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 20px;
+}
